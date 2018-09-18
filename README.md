@@ -1,4 +1,4 @@
-<a href="https://codeclimate.com/github/amina78/mon-projet/test_coverage"><img src="https://api.codeclimate.com/v1/badges/eacb0ee605260340c2ac/test_coverage" /></a>
+<a href="https://codeclimate.com/github/amina78/mon-projet/maintainability"><img src="https://api.codeclimate.com/v1/badges/eacb0ee605260340c2ac/maintainability" /></a>
 <a href="https://codeclimate.com/github/amina78/mon-projet/test_coverage"><img src="https://api.codeclimate.com/v1/badges/eacb0ee605260340c2ac/test_coverage" /></a>
 # README
 
