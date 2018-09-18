@@ -1,3 +1,10 @@
 language: ruby
 rvm:
- - 2.2
+- 2.4.4
+deploy:
+  provider: heroku
+  api_key:
+    secure: uc5YihinbnaVmOSyTRMXWZRdHBg+PuP7aal0g0eqrDVZWtBtys9Qhh84Sc7WW6GofhoitDRU+32Jd9Qp58n6YM35xNFilXDbVR+6BUkm9ecS4HMOnZsnmNzyPkexnGyc0HFDqSO8Vi+8rbx0z5K+mXPOOMWz+OTbe+o6qAcJ36bXIPD+tdh6ay3/QtuxIS9EuzOXayYd2i+VQyYRROtJ3YJyKez7Fz8kwBJxxRZTQFpvF3dZZQTKZwKwVrE9wHyMFkCuic+WNrPe22Wys4HusZmz7qPWpO9H4HXMx2uUZsBsPVyORg33hNKDwwBTLTE9ohk/WfPrIC4RnqLHesl3ULq3wBJdgldvr/aP2s1JxV5uBzhWwr9dEZZLGy5zS+86OD7HoR6JDplu985CAoGnNOR6yW0YRbqTnQuPOsoV8+QtotJ0snGaZVw5FB49Lxztvwfr67VAGtdyCnXFtoUnX+RS3uAAlIKlBPhze7ffjpl1rusZOrq1GpGe+//82xZq568yVl3sbKRWqG70b2OKBdY/2dgE39swpKbH88w0314/5FhZk49cDbNns722dD7eYYu7vT2Qrj1WS5QqVi+dwx5vAqT10+/MqYTpND5IRJHPRXdAA5MbYkp504AcQ9t9CXb/3gJ61kwfnD0rbj6tvJIUJSX6EfNoDfG2pShbS5M=
+  app: projetpiz
+  on:
+    repo: amina78/mon-projet
