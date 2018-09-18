@@ -1,4 +1,4 @@
-env:
+
   global:
     - CC_TEST_REPORTER_ID=28043d92df5809c9411c3ece059d126e15da8a960c26b39922f6853c31ea7bab
 language: ruby
