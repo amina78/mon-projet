@@ -3,11 +3,11 @@ class OrdersController < ApplicationController
   
   def creer_commande
     p "ordersController"
-    @nom = params[:name]
+    @nom = params[:nomn]
     @adresse = params[:adress]
     p @adresse
     @pizzas = params[:pizzas]
-    newOrder = Order.new(:name => @nom, :adress => @adresse)
+    newOrder = Order.new(:nomn => @nom, :adress => @adresse)
     newOrder.save
     p @pizzas
     @erros="Erros : [";
