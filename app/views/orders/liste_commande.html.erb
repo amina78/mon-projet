@@ -14,7 +14,7 @@
 <% @orders.each do |order| %>
 <table align=center border=1 width=500 cellspacing=0>
   <tr>
-	<td width=150> <%= order[:order][:client_name]  %>
+	<td width=150> <%= order[:order][:name]  %>
 	<td width=150> <%= order[:order][:adress] %>
 	<td width=150> <table border=0 >
 		<% order[:pizzas].each do |pizza| %>
